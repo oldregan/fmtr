@@ -1,7 +1,7 @@
 # fmtr
 Messed up the format of your R scripts files on server? Don't worry, **fmtr** 
 helps you reformat your R files right in the command line. It is basically a
-super thin wrapper around R packages [formatR](https://yihui.name/formatr/)**
+super thin wrapper around R packages [formatR](https://yihui.name/formatr/)
 
 ## Installation
    - clone this repo to somewhere on your server
