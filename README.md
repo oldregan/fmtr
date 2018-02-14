@@ -11,6 +11,17 @@ super thin wrapper around R packages **formatR**
 
 ```bash
 $ fmtr -h
+Usage: fmtr [options]
+
+Options:
+   -s SOURCE, --source=SOURCE
+        source fileile name
+
+   -o OUTPUT, --output=OUTPUT
+        output file name
+
+   -h, --help
+
 $ fmtr -s test.r
 ```
 
