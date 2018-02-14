@@ -1,0 +1,10 @@
+#!/usr/bin/env Rscript
+
+library(formatR)
+library(optparse)
+
+option_list = list(make_option(c('-s','--source'),type = "character",default=NULL,help = "source file name"),
+                make_option(c('-o','--output',type="charcter",default=NULL,help = "output file name")))
+opt_parser = OptionParser(option_list=option_list) 
+opt = parse_args(opt_parser)
+
