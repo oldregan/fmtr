@@ -7,8 +7,7 @@ library(bootstrap)
 theta.fit <- function(x, y) {
     lsfit(x, y)
 }
-theta.predict <- function(fit, x) 
-{
+theta.predict <- function(fit, x) {
     cbind(1, x) %*% fit$coef
 }
 
